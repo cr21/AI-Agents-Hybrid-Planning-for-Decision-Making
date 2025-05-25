@@ -1,8 +1,3 @@
-# AI-Agents-Hybrid-Planning-for-Decision-Making
-Building AI Agent from scratch - Decision Making and planning
-
-## Bug Report
-
 1) loop.py -> generate_plan is taking original input in each plan iteration, ideally in subsequent steps after first step it should be overrided_input which has more context
 
 
