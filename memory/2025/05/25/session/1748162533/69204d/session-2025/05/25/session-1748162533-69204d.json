@@ -1,0 +1,53 @@
+[
+  {
+    "timestamp": 1748162533.109631,
+    "type": "run_metadata",
+    "text": "Started new session with input: find total points, goals scored, goals conceded by top 3 teams in English premier league in 2023-2024 season at 2025-05-25T08:42:13.109650",
+    "tool_name": null,
+    "tool_args": null,
+    "tool_result": null,
+    "final_answer": null,
+    "tags": [
+      "run_start"
+    ],
+    "success": null,
+    "metadata": {
+      "start_time": "2025-05-25T03:42:13.109924",
+      "step": 0
+    }
+  },
+  {
+    "timestamp": 1748162591.91785,
+    "type": "run_metadata",
+    "text": "Started new session with input: who was winner of English premier leuge in 2022-23 and how many points at 2025-05-25T08:43:11.917865",
+    "tool_name": null,
+    "tool_args": null,
+    "tool_result": null,
+    "final_answer": null,
+    "tags": [
+      "run_start"
+    ],
+    "success": null,
+    "metadata": {
+      "start_time": "2025-05-25T03:43:11.917875",
+      "step": 0
+    }
+  },
+  {
+    "timestamp": 1748162622.934612,
+    "type": "run_metadata",
+    "text": "Started new session with input: who won English premier leauge in 2023-24 at 2025-05-25T08:43:42.934629",
+    "tool_name": null,
+    "tool_args": null,
+    "tool_result": null,
+    "final_answer": null,
+    "tags": [
+      "run_start"
+    ],
+    "success": null,
+    "metadata": {
+      "start_time": "2025-05-25T03:43:42.934639",
+      "step": 0
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "timestamp": 1748163713.391467,
+    "type": "run_metadata",
+    "text": "Started new session with input: Summarize Blog \"https://www.turing.ac.uk/blog/ais-trolley-problem-problem\" at 2025-05-25T09:01:53.391488",
+    "tool_name": null,
+    "tool_args": null,
+    "tool_result": null,
+    "final_answer": null,
+    "tags": [
+      "run_start"
+    ],
+    "success": null,
+    "metadata": {
+      "start_time": "2025-05-25T04:01:53.391721",
+      "step": 0
+    }
+  }
+]
