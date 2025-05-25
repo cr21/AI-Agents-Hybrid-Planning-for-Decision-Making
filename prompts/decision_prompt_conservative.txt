@@ -18,11 +18,11 @@ Write a valid async Python function named `solve()` that solves the user query u
   E.g., await mcp.call_tool('add', {{"input": {{"a": 1, "b": 2}}}})
   (NOT await mcp.call_tool(add, input) or await mcp.call_tool('add', input=...))
 - Before each tool call, paste the full tool docstring enclosed in triple quotes (""").
-- Call the tool exactly as per its function signature: tool(input)
-- If one FUNCTION_CALL depends on another, parse the previous result using json.loads(result.content[0].text)["result"] to extract the value from the tool's JSON output.
+- Call tool exactly as per its function signature: tool(input)
+- If one FUNCTION_CALL depends on another, parse the previous result using json.loads(result.content[0].text)["result"] to extract  value from the tool's JSON output.
 -❗Important: Never inline json.loads(...) inside f"" strings. Always assign it to a variable first (e.g., parsed = json.loads(...)["result"]) and use that in return f"FINAL_ANSWER: {{parsed}}".
 - End your function by returning a string that starts with 'FINAL_ANSWER: ' or 'FURTHER_PROCESSING_REQUIRED: '
-- If the tool result is a document, webpage, or unstructured chunk, DO NOT return it as the FINAL_ANSWER.
+- If  tool result is a document, webpage, or unstructured chunk, DO NOT return it as the FINAL_ANSWER.
 - Instead, return it with 'FURTHER_PROCESSING_REQUIRED:' so the agent can interpret and summarize it next.
 
 🔍 DETECTION PATTERNS for already-fetched content:
@@ -32,4 +32,4 @@ Write a valid async Python function named `solve()` that solves the user query u
     - HTML-like content
     - Document excerpts with [Source: filename]
     - Search results with numbered items
-- If the user input already includes clean extracted webpage/document content, do NOT call the tool again. Summarize or generate the final answer from it.
+- If  user input already includes clean extracted webpage/document content, do NOT call the tool again. Summarize or generate  final answer from it.

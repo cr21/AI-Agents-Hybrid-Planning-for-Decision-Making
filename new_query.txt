@@ -1,0 +1,5 @@
+1) Find all fibonaci number between 15 and 94
+2) How many players are there in cricket team? 
+3) 2) Find  tip given to dasher from "/Users/chiragtagadiya/Downloads/MyProjects/EAG1/AI-Agents-Hybrid-Planning-for-Decision-Making/documents/doordash.pdf"
+3) extract points table from this webpage: "https://www.premierleague.com/tables" 
+4) summarize webpage "https://en.wikipedia.org/wiki/Trolley_problem"
