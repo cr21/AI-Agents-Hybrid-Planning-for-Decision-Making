@@ -54,7 +54,7 @@ class AgentLoop:
                 )
 
                 plan = await generate_plan(
-                    user_input=self.context.user_input,
+                    user_input=user_input_override or self.context.user_input,
                     perception=perception,
                     memory_items=self.context.memory.get_session_items(),
                     tool_descriptions=tool_descriptions,
@@ -88,7 +88,7 @@ class AgentLoop:
                             return {"status": "done", "result": self.context.final_answer}
                         elif result.startswith("FURTHER_PROCESSING_REQUIRED:"):
                             content = result.split("FURTHER_PROCESSING_REQUIRED:")[1].strip()
-                            self.context.user_input_override  = (
+                            self.context.user_input_override = (
                                 f"Original user task: {self.context.user_input}\n\n"
                                 f"Your last tool produced this result:\n\n"
                                 f"{content}\n\n"
@@ -96,7 +96,7 @@ class AgentLoop:
                                 f"FINAL_ANSWER: your answer\n\n"
                                 f"Otherwise, return the next FUNCTION_CALL."
                             )
-                            log("loop", f"📨 Forwarding intermediate result to next step:\n{self.context.user_input_override}\n\n")
+                            log("loop", f"📨 Setting user_input_override with {len(content)} chars of content")
                             log("loop", f"🔁 Continuing based on FURTHER_PROCESSING_REQUIRED — Step {step+1} continues...")
                             break  # Step will continue
                         elif result.startswith("[sandbox error:"):

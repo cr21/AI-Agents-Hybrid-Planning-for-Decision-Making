@@ -1,0 +1,36 @@
+[
+  {
+    "timestamp": 1748145610.650381,
+    "type": "run_metadata",
+    "text": "Started new session with input: Summarize this page: https://theschoolof.ai/ at 2025-05-25T04:00:10.650403",
+    "tool_name": null,
+    "tool_args": null,
+    "tool_result": null,
+    "final_answer": null,
+    "tags": [
+      "run_start"
+    ],
+    "success": null,
+    "metadata": {
+      "start_time": "2025-05-24T23:00:10.650685",
+      "step": 0
+    }
+  },
+  {
+    "timestamp": 1748147048.224784,
+    "type": "run_metadata",
+    "text": "Started new session with input: Summarize this page: https://theschoolof.ai/ at 2025-05-25T04:24:08.224822",
+    "tool_name": null,
+    "tool_args": null,
+    "tool_result": null,
+    "final_answer": null,
+    "tags": [
+      "run_start"
+    ],
+    "success": null,
+    "metadata": {
+      "start_time": "2025-05-24T23:24:08.224866",
+      "step": 0
+    }
+  }
+]

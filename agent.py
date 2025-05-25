@@ -72,10 +72,10 @@ if __name__ == "__main__":
 
 
 
-# Find the ASCII values of characters in INDIA and then return sum of exponentials of those values.
-# How much Anmol singh paid for his DLF apartment via Capbridge? 
-# What do you know about Don Tapscott and Anthony Williams?
-# What is the relationship between Gensol and Go-Auto?
-# which course are we teaching on Canvas LMS? "H:\DownloadsH\How to use Canvas LMS.pdf"
-# Summarize this page: https://theschoolof.ai/
-# What is the log value of the amount that Anmol singh paid for his DLF apartment via Capbridge? 
+# Find the ASCII values of characters in INDIA and then return sum of exponentials of those values. -> run successfully
+# How much Anmol singh paid for his DLF apartment via Capbridge? -> run successfully
+# What do you know about Don Tapscott and Anthony Williams?  -> run successfully
+# What is the relationship between Gensol and Go-Auto? -> run successfully
+# which course are we teaching on Canvas LMS? "/Users/chiragtagadiya/Downloads/MyProjects/EAG1/AI-Agents-Hybrid-Planning-for-Decision-Making/documents/How to use Canvas LMS.pdf" -> run successfully
+# Summarize this page: https://theschoolof.ai/ -> run successfully
+# What is the log value of the amount that Anmol singh paid for his DLF apartment via Capbridge?  -> run successfully
